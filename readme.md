@@ -22,8 +22,10 @@ This implementation uses the OpenFrameworks C++ toolkit to handle graphics rende
 1. Ensure you have OpenFrameworks installed. If not, download it from [openframeworks.cc](https://openframeworks.cc/download/)
 2. Clone this repository to your local machine
 3. Place the project folder in your OpenFrameworks `apps/myApps/` directory
-4. Use the OpenFrameworks Project Generator to generate project files if needed
-5. Compile and run the project using your C++ IDE
+5. Use the command
+```
+make Release
+```
 
 ## How to Play
 - Use arrow keys or WASD to navigate Pacman through the maze

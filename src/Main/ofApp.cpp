@@ -4,7 +4,7 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 	ofSetFrameRate(30);
-	ofSetWindowTitle("Java Game Box");
+	ofSetWindowTitle("PacMan Los Duracos");
 	//States
 	menuState = new MenuState();
 	gameState = new GameState();
